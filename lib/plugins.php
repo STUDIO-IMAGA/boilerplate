@@ -7,24 +7,8 @@ add_action( 'after_setup_theme', function() {
 
     $plugins = array(
       array(
-  			'name'               => 'Yoast SEO',
-  			'slug'               => 'wordpress-seo',
-        'required'           => true,
-		  ),
-      array(
-  			'name'               => 'ACF Content Analysis for Yoast SEO',
-  			'slug'               => 'acf-content-analysis-for-yoast-seo',
-        'required'           => true,
-		  ),
-      array(
-  			'name'               => 'Advanced Custom Fields: Star Rating',
-  			'slug'               => 'acf-star-rating',
-  			'source'             => 'https://github.com/kevdotbadger/acf-star-rating/archive/master.zip',
-        'required'           => true,
-		  ),
-      array(
-        'name'               => 'Fast Velocity Minify',
-        'slug'               => 'fast-velocity-minify',
+        'name'               => 'Yoast SEO',
+        'slug'               => 'wordpress-seo',
         'required'           => true,
       ),
     );

@@ -2,12 +2,19 @@
   "dependencies": {
     "main.js": {
       "files": [
+        "./../node_modules/bootstrap/dist/js/bootstrap.js",
+        "./../node_modules/aos/dist/aos.js",
+        "./../node_modules/slick-carousel/slick/slick.js",
+        "./../node_modules/smooth-scroll/dist/smooth-scroll.js",
         "scripts/main.js"
       ],
       "main": true
     },
     "main.css": {
       "files": [
+        "./../node_modules/aos/dist/aos.css",
+        "./../node_modules/slick-carousel/slick/slick.scss",
+        "./../node_modules/font-awesome/scss/font-awesome.scss",
         "styles/main.scss"
       ],
       "main": true
@@ -17,9 +24,9 @@
         "styles/login.scss"
       ]
     },
-    "dashboard.css": {
+    "admin.css": {
       "files": [
-        "styles/dashboard.scss"
+        "styles/admin.scss"
       ]
     },
     "customizer.js": {
@@ -33,7 +40,9 @@
       ]
     },
     "jquery.js": {
-      "bower": ["jquery"]
+      "files": [
+        "./../node_modules/jquery/dist/jquery.js"
+      ]
     }
   },
   "config": {
